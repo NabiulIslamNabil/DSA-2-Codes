@@ -27,7 +27,7 @@ string reversed(string str, int index) {
 
 bool isPalindrome(string str){
     string s = reversed(str, str.length() - 1);
-    cout<<s<<endl;
+    //cout<<s<<endl;
     return s==str;
 }
 
@@ -39,7 +39,7 @@ int main(){
     getline(cin, str);
 
     str = processString(str);
-    cout<<str<<endl;
+    //cout<<str<<endl;
 
     if(isPalindrome(str)){
         cout<<str<<" is a palindrome."<<endl;
